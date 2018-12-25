@@ -9,19 +9,19 @@ export default class ReactSlickDemo extends React.Component {
       dots: true,
     };
     return (
-      <div className="container">
+      <div className='container'>
         <Slider {...settings}>
           <div>
-            <img src="http://placekitten.com/g/400/200" />
+            <img src='http://placekitten.com/g/400/200' />
           </div>
           <div>
-            <img src="http://placekitten.com/g/400/200" />
+            <img src='http://placekitten.com/g/400/200' />
           </div>
           <div>
-            <img src="http://placekitten.com/g/400/200" />
+            <img src='http://placekitten.com/g/400/200' />
           </div>
           <div>
-            <img src="http://placekitten.com/g/400/200" />
+            <img src='http://placekitten.com/g/400/200' />
           </div>
         </Slider>
       </div>

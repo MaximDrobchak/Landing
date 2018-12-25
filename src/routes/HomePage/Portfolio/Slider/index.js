@@ -44,9 +44,9 @@ class Slider extends React.Component {
 
   render() {
     return (
-      <div className="slider">
+      <div className='slider'>
         <div
-          className="slider-wrapper"
+          className='slider-wrapper'
           style={{
             transform: `translateX(${this.state.translateValue}px)`,
             transition: 'transform ease-out 0.45s',
@@ -66,21 +66,21 @@ class Slider extends React.Component {
 }
 
 const Slide = ({ children }) => {
-  return <div className="slide">{children}</div>;
+  return <div className='slide'>{children}</div>;
 };
 
 const LeftArrow = props => {
   return (
-    <div className="backArrow arrow" onClick={props.goToPrevSlide}>
-      <i className="fa fa-arrow-left fa-2x" aria-hidden="true" />
+    <div className='backArrow arrow' onClick={props.goToPrevSlide}>
+      <i className='fa fa-arrow-left fa-2x' aria-hidden='true' />
     </div>
   );
 };
 
 const RightArrow = props => {
   return (
-    <div className="nextArrow arrow" onClick={props.goToNextSlide}>
-      <i className="fa fa-arrow-right fa-2x" aria-hidden="true" />
+    <div className='nextArrow arrow' onClick={props.goToNextSlide}>
+      <i className='fa fa-arrow-right fa-2x' aria-hidden='true' />
     </div>
   );
 };
