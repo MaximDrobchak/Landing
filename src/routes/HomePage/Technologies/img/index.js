@@ -6,12 +6,4 @@ import logoNodejs from './logo-Node-js.svg';
 import logoReact from './logo-React-N.svg';
 import logoSQL from './logo-SQL.svg';
 
-export {
-	logoECMAScript,
-	logoGraphQL,
-	logoHTML5,
-	logoNoSQL,
-	logoNodejs,
-	logoReact,
-	logoSQL
-};
+export { logoECMAScript, logoGraphQL, logoHTML5, logoNoSQL, logoNodejs, logoReact, logoSQL };

@@ -19,7 +19,7 @@ import DevGrid from '../components/DevGrid';
 export { PageContainer, DevGrid, PageHeader, BackgroundLogo };
 
 const Landing = () => (
-  <HomePage className="home-page">
+  <HomePage className='home-page'>
     <Menu />
     <About />
     <Services />
@@ -31,6 +31,6 @@ const Landing = () => (
 );
 export default () => (
   <Switch>
-    <Route exact path="/" component={Landing} />
+    <Route exact path='/' component={Landing} />
   </Switch>
 );

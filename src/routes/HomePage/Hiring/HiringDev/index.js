@@ -6,10 +6,10 @@ import { PageContainer, PageHeader, DevGrid } from '../../../';
 const Hiring = () => (
   <PageContainer>
     {/* <DevGrid /> */}
-    <PageHeader text="HIRING" pageMainHeader />
+    <PageHeader text='HIRING' pageMainHeader />
     <PageHeader
-      text="We are constantly on the lookout for a variety of experts to complement our team.
-What we are looking for in:"
+      text='We are constantly on the lookout for a variety of experts to complement our team.
+What we are looking for in:'
     />
 
     <Select />

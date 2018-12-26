@@ -23,21 +23,21 @@ const links = [
 
 const NavBar = () => (
   <Navigation>
-    <Link to="/">
-      <AgileNixLinkImage src={agileNixIcon} alt="AgileNix" />
+    <Link to='/'>
+      <AgileNixLinkImage src={agileNixIcon} alt='AgileNix' />
     </Link>
     <div>
       {links.map(link => (
         <MenuLink key={link.linkID} {...link} />
       ))}
-      <img src={social} alt="" />
+      <img src={social} alt='' />
     </div>
   </Navigation>
 );
 
 export default () => (
   <BackgroundMenu>
-    <PageContainer id="Menu">
+    <PageContainer id='Menu'>
       {/* <DevGrid /> */}
       <NavBar />
       <MainText />
